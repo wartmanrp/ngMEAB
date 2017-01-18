@@ -1,0 +1,29 @@
+<div *ngIf="hero" class="row">
+    <div class="col-sm-6 col-md-4">
+    <button (click)="goBack()" class="btn btn-success">Dashboard</button>
+        <div class="thumbnail">
+
+            <img src="{{hero.imageUrl}}" alt="A picture of {{hero.name}}" class="unit-thumb" >
+
+            <div class="caption">
+                <h3> {{ hero.name }} details.</h3>
+                <div>
+                    <label>Id: </label> {{ hero.id }}
+                </div>
+                <div>
+                    <label>Name: </label>
+                    <input [(ngModel)]="hero.name" placeholder="Name" />
+                </div>
+                <div>
+                    <label>Points: </label> {{ hero.points }}
+                </div>
+                <div *ngIf="hero.options">
+                    <label>Options: </label> 
+                    <ul class="heroes">
+                        <li *ngFor="let option of hero.options">{{ option.name }} - {{ option.points }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
