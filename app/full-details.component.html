@@ -28,7 +28,7 @@
     <div class="panel panel-defaul">
         <div class="panel-heading"></div>
         <div class="panel-body">
-            <table class="table table-striped table-hover">
+            <table class="table table-striped table-hover table-bordered">
                 <thead>
                     <tr>
                         <th>Fight</th>
@@ -51,10 +51,10 @@
                         <td>{{ hero.attacks }}</td>
                         <td>{{ hero.wounds }}</td>
                         <td>{{ hero.courage }}</td>
-                        <td> </td>
-                        <td *ngIf="hero.might">{{  }}</td>
-                        <td *ngIf="hero.will">{{  }}</td>
-                        <td *ngIf="hero.fate">{{  }}</td>
+                        <td></td>
+                        <td *ngIf="hero.might">{{ hero.might }}</td>
+                        <td *ngIf="hero.will">{{ hero.will }}</td>
+                        <td *ngIf="hero.fate">{{ hero.fate }}</td>
                     </tr>
                 </tbody>
             </table>
