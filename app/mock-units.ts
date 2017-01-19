@@ -274,33 +274,34 @@ export const HEROES: Hero[] = [
     name: "Beregond of Gondor",
     unique: "Beregond",
     points: 25,
-    wargear: ['',],
+    wargear: ['Heavy Armour', 'Longbow'],
     options: [{ 
     name: "Horse",
     points: 6,
     }],
         rules: [
       {
-        name: '',
-        explanation: ''
-      },
-      {
-        name: '',
-        explanation: ''
+        name: 'Bodyguard',
+        explanation: `
+          Pick one hero in your army, as long as this
+          model is alive, all models with the 
+          Bodyguard special rule automatically pass 
+          all courage tests they have to take.
+        `
       }
     ],
     attributes: {
-      Move: ,
-      Fight: ,
-      Shoot: ,
-      Strength: ,
-      Defense: ,
-      Attacks: ,
-      Wounds: ,
-      Courage: ,
-      Might: ,
-      Will: ,
-      Fate: 
+      Move: 6,
+      Fight: 4,
+      Shoot: 3,
+      Strength: 4,
+      Defense: 6,
+      Attacks: 1,
+      Wounds: 1,
+      Courage: 4,
+      Might: 1,
+      Will: 1,
+      Fate: 1
     },
     imageUrl: "http://www.coolminiornot.com/pics/pics16/img522321bc2682a.jpg"
   },
@@ -309,29 +310,30 @@ export const HEROES: Hero[] = [
     name: "Cirion, Lieutenant of Amon Barad",
     unique: "Cirion",
     points: 55,
-    wargear: ['',],
+    wargear: ['Armour','Shield'],
         rules: [
       {
-        name: '',
-        explanation: ''
-      },
-      {
-        name: '',
-        explanation: ''
+        name: 'Boldest of the Bold',
+        explanation: `
+          When attempting to charge an 
+          enemy that causes Terror, 
+          Cirion receives a +2 bonus 
+          to his Courage.
+        `
       }
     ],
     attributes: {
-      Move: ,
-      Fight: ,
-      Shoot: ,
-      Strength: ,
-      Defense: ,
-      Attacks: ,
-      Wounds: ,
-      Courage: ,
-      Might: ,
-      Will: ,
-      Fate: 
+      Move: 6,
+      Fight: 4,
+      Shoot: 4,
+      Strength: 4,
+      Defense: 6,
+      Attacks: 2,
+      Wounds: 2,
+      Courage: 4,
+      Might: 3,
+      Will: 1,
+      Fate: 1
     },
     imageUrl: "http://farm5.static.flickr.com/4086/5071035018_24e5877191_m.jpg"
   },
@@ -339,29 +341,30 @@ export const HEROES: Hero[] = [
     id: 10,
     name: "Knight of the White Tower",
     points: 55,
-    wargear: ['',],
+    wargear: ['Heavy Armour', 'White Sword of Gondor'],
         rules: [
       {
-        name: '',
-        explanation: ''
-      },
-      {
-        name: '',
-        explanation: ''
+        name: 'White Sword of Gondor',
+        explanation: `
+          A White Sword is a two-handed weapon. 
+          Additionally, each Wound infliced by 
+          a White Sword (after Fate rolls) 
+          causes two wounds, instead of one.
+        `
       }
     ],
     attributes: {
-      Move: ,
-      Fight: ,
-      Shoot: ,
-      Strength: ,
-      Defense: ,
-      Attacks: ,
-      Wounds: ,
-      Courage: ,
-      Might: ,
-      Will: ,
-      Fate: 
+      Move: 6,
+      Fight: 5,
+      Shoot: 4,
+      Strength: 4,
+      Defense: 6,
+      Attacks: 2,
+      Wounds: 2,
+      Courage: 4,
+      Might: 1,
+      Will: 1,
+      Fate: 1 
     },
     imageUrl: "http://4.bp.blogspot.com/-UOY87KR4wfc/UXibL6mrAaI/AAAAAAAAAZw/Gw0gQgcW6NM/s1600/20130424_212650_HDR.jpg"
   },
@@ -369,7 +372,7 @@ export const HEROES: Hero[] = [
     id: 11,
     name: "Captain of Minas Tirith",
     points: 50,
-    wargear: ['',],
+    wargear: ['Armour'],
     options: [
       {
         name: "Horse",
@@ -387,29 +390,19 @@ export const HEROES: Hero[] = [
         name: "Shield",
         points: 5
       }
-    ],
-        rules: [
-      {
-        name: '',
-        explanation: ''
-      },
-      {
-        name: '',
-        explanation: ''
-      }
-    ],
+    ],       
     attributes: {
-      Move: ,
-      Fight: ,
-      Shoot: ,
-      Strength: ,
-      Defense: ,
-      Attacks: ,
-      Wounds: ,
-      Courage: ,
-      Might: ,
-      Will: ,
-      Fate: 
+      Move: 6,
+      Fight: 4,
+      Shoot: 4,
+      Strength: 4,
+      Defense: 6,
+      Attacks: 2,
+      Wounds: 2,
+      Courage: 4,
+      Might: 2,
+      Will: 1,
+      Fate: 1
     },
     imageUrl: "https://c2.staticflickr.com/4/3058/5715517454_16682a0628.jpg"
   },
@@ -417,7 +410,7 @@ export const HEROES: Hero[] = [
     id: 12,
     name: "King of Men",
     points: 60,
-    wargear: ['',],
+    wargear: ['Armour'],
     options: [
       {
         name: "Armoured Horse",
@@ -440,28 +433,18 @@ export const HEROES: Hero[] = [
         points: 5
       },
     ],
-        rules: [
-      {
-        name: '',
-        explanation: ''
-      },
-      {
-        name: '',
-        explanation: ''
-      }
-    ],
     attributes: {
-      Move: ,
-      Fight: ,
-      Shoot: ,
-      Strength: ,
-      Defense: ,
-      Attacks: ,
-      Wounds: ,
-      Courage: ,
-      Might: ,
-      Will: ,
-      Fate: 
+      Move: 6,
+      Fight: 5,
+      Shoot: 4,
+      Strength: 4,
+      Defense: 5,
+      Attacks: 2,
+      Wounds: 2,
+      Courage: 5,
+      Might: 2,
+      Will: 2,
+      Fate: 1
     },
     imageUrl: "https://images-na.ssl-images-amazon.com/images/I/216WWXPDR6L.jpg"
   },
