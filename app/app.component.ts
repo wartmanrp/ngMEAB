@@ -9,7 +9,9 @@ import { Component } from '@angular/core';
             <li><a routerLink="/heroes">Heroes</a></li>
         </nav>
 
-        <router-outlet></router-outlet>
+        <div class="row">
+            <router-outlet></router-outlet>
+        </div>
     `
 })
 

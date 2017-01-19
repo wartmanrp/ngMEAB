@@ -7,6 +7,7 @@ import { HeroDetailComponent } from './hero-detail.component';
 import { HeroesComponent } from './heroes.component';
 import { HeroService } from './heroes.service';
 import { DashboardComponent } from './dashboard.component';
+import { FullDetailsComponent } from './full-details.component';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -14,14 +15,15 @@ import { AppRoutingModule } from './app-routing.module';
   imports:[ 
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   declarations: 
   [ 
     AppComponent,
     DashboardComponent,
     HeroDetailComponent,
-    HeroesComponent
+    HeroesComponent,
+    FullDetailsComponent
   ],
   providers: [
     HeroService

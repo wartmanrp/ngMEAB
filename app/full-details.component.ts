@@ -1,19 +1,19 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { HeroService } from './heroes.service';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { Location } from '@angular/common';
-import { Hero } from './hero';
 import 'rxjs/add/operator/switchMap';
 
-import { HeroService } from './heroes.service';
+import { Hero } from './hero';
+
 @Component({
     moduleId: module.id,
-    selector: 'my-hero-detail',
-    templateUrl: 'hero-detail.component.html',
-    styleUrls: ['hero-detail.styles.css']
-
+    selector: 'full-unit-details',
+    templateUrl: 'full-details.component.html',
+    styleUrls: ['app.styles.css']
 })
 
-export class HeroDetailComponent implements OnInit {
+export class FullDetailsComponent implements OnInit {
     @Input() hero: Hero;
 
     constructor(
@@ -21,7 +21,7 @@ export class HeroDetailComponent implements OnInit {
         private route: ActivatedRoute,
         private router: Router,
         private location: Location
-    ) { }
+    ){ }
 
     ngOnInit(): void {
         this.route.params
@@ -29,16 +29,7 @@ export class HeroDetailComponent implements OnInit {
             .subscribe(hero => this.hero = hero);
     }
 
-    goToDetail(): void {
-        this.router
-            .navigate([
-                '/fulldetails',
-                this.hero.id
-            ]);
-    }
-
     goBack(): void {
         this.location.back();
     }
-
 }

@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard.component'; 
 import { HeroesComponent } from './heroes.component'; 
 import { HeroDetailComponent } from './hero-detail.component'; 
+import { FullDetailsComponent } from './full-details.component';
 
 const routes: Routes = [
       {
@@ -22,7 +23,11 @@ const routes: Routes = [
       {
         path: 'heroes',
         component: HeroesComponent
-      } 
+      },
+      {
+        path: 'fulldetails/:id',
+        component: FullDetailsComponent
+      }
 ];
 
 @NgModule({
