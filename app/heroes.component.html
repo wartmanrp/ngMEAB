@@ -8,6 +8,33 @@
 <!--<my-hero-detail [hero]="selectedHero"></my-hero-detail>-->
 
 <div *ngIf="selectedHero">
-    <h2>{{selectedHero.name }} is my hero</h2>
-    <button (click)="gotoDetail()">View Details</button>
+    <div class="row">
+        <h2>{{selectedHero.name }} is my hero</h2>
+        <button class="btn btn-success btn-md" (click)="gotoDetail()">View Full Details <i class="glyphicon glyphicon-chevron-right"></i></button>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+
+                <img src="{{selectedHero.imageUrl}}" alt="A picture of {{selectedHero.name}}" class="unit-thumb">
+
+                <div class="caption">
+                    <h3> {{ selectedHero.name }} details.</h3>
+                    <div>
+                        <label>Id: </label> {{ selectedHero.id }}
+                    </div>
+                    <div>
+                        <label>Name: </label> {{ selectedHero.name }}
+                    </div>
+                    <div>
+                        <label>Points: </label> {{ selectedHero.points }}
+                    </div>
+                    <div *ngIf="selectedHero.options">
+                        <label>Options: </label>
+                        <ul class="heroes">
+                            <li *ngFor="let option of selectedHero.options">{{ option.name }} - {{ option.points }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

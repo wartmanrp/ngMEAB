@@ -12,18 +12,16 @@ export class Hero {
     explanation: string;
   }];
   wargear: string[];
-  attributes: {
-    Move: number;
-    Fight: number;
-    Shoot: number;
-    Strength: number;
-    Defense: number;
-    Attacks: number;
-    Wounds: number;
-    Courage: number;
-    Might?: number;
-    Will?: number;
-    Fate?: number;
-  };
+  Move: string;
+  Fight: string;
+  Shoot: string;
+  Strength: string;
+  Defense: string;
+  Attacks: string;
+  Wounds: string;
+  Courage: string;
+  Might?: string;
+  Will?: string;
+  Fate?: string;
   imageUrl: string;
 }

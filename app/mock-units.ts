@@ -8,7 +8,7 @@ export const HEROES: Hero[] = [
     points: 260,
     wargear: ['Heavy Armour', 'Anduril'],
     options: [
-      { 
+      {
         name: "Armoured Horse",
         points: 15,
       }
@@ -19,19 +19,17 @@ export const HEROES: Hero[] = [
         explanation: 'Aragorn may expend one point of might per turn without depleting his store.'
       }
     ],
-    attributes: {
-      Move: 6,
-      Fight: 6,
-      Shoot: 3,
-      Strength: 4,
-      Defense: 7,
-      Attacks: 3,
-      Wounds: 3,
-      Courage: 6,
-      Might: 3,
-      Will: 3,
-      Fate: 3
-    },
+    Move: '6',
+    Fight: '6',
+    Shoot: '3',
+    Strength: '4',
+    Defense: '7',
+    Attacks: '3',
+    Wounds: '3',
+    Courage: '6',
+    Might: '3',
+    Will: '3',
+    Fate: '3',
     imageUrl: "http://vignette3.wikia.nocookie.net/gamesworkshop/images/7/7c/Aragorn%E2%80%94foot_and_mount.jpeg/revision/latest?cb=20120421214620"
   },
   {
@@ -41,7 +39,7 @@ export const HEROES: Hero[] = [
     points: 70,
     wargear: ['Armour'],
     options: [
-      { 
+      {
         name: "Armoured Horse",
         points: 15,
       },
@@ -65,20 +63,18 @@ export const HEROES: Hero[] = [
         name: "Shield",
         points: 5
       },
-    ],    
-    attributes: {
-      Move: 6,
-      Fight: 5,
-      Shoot: 3,
-      Strength: 4,
-      Defense: 5,
-      Attacks: 2,
-      Wounds: 2,
-      Courage: 5,
-      Might: 3,
-      Will: 2,
-      Fate: 2
-    },
+    ],
+    Move: '6',
+    Fight: '5',
+    Shoot: '3',
+    Strength: '4',
+    Defense: '5',
+    Attacks: '2',
+    Wounds: '2',
+    Courage: '5',
+    Might: '3',
+    Will: '2',
+    Fate: '2',
     imageUrl: "https://www.games-workshop.com/resources/catalog/product/600x620/99061464085_FaramirFoodandMountedNEW01.jpg"
   },
   {
@@ -88,7 +84,7 @@ export const HEROES: Hero[] = [
     points: 25,
     wargear: ['Armour'],
     options: [
-      { 
+      {
         name: "Elven Cloak",
         points: 10,
       },
@@ -97,7 +93,7 @@ export const HEROES: Hero[] = [
         points: 5
       }
     ],
-        rules: [
+    rules: [
       {
         name: 'Resistant to Magic',
         explanation: 'See main rules.'
@@ -107,19 +103,17 @@ export const HEROES: Hero[] = [
         explanation: 'See main rules.'
       }
     ],
-    attributes: {
-      Move: 4,
-      Fight: 3,
-      Shoot: 3,
-      Strength: 2,
-      Defense: 4,
-      Attacks: 1,
-      Wounds: 1,
-      Courage: 4,
-      Might: 1,
-      Will: 1,
-      Fate: 2
-    },
+    Move: '4',
+    Fight: '3',
+    Shoot: '3',
+    Strength: '2',
+    Defense: '4',
+    Attacks: '1',
+    Wounds: '1',
+    Courage: '4',
+    Might: '1',
+    Will: '1',
+    Fate: '2',
     imageUrl: "https://s-media-cache-ak0.pinimg.com/736x/72/1a/9a/721a9a2e5b3ab327316633d48d48fdfb.jpg"
   },
   {
@@ -129,7 +123,7 @@ export const HEROES: Hero[] = [
     points: 175,
     wargear: ['Heavy Armour', 'The Horn of Gondor'],
     options: [
-      { 
+      {
         name: "The Banner of Minas Tirith",
         points: 50,
       },
@@ -146,7 +140,7 @@ export const HEROES: Hero[] = [
         points: 5
       },
     ],
-        rules: [
+    rules: [
       {
         name: 'The Horn of Gondor',
         explanation: `
@@ -168,19 +162,17 @@ export const HEROES: Hero[] = [
         `
       }
     ],
-    attributes: {
-      Move: 6,
-      Fight: 6,
-      Shoot: 4,
-      Strength: 4,
-      Defense: 6,
-      Attacks: 3,
-      Wounds: 3,
-      Courage: 6,
-      Might: 6,
-      Will: 3,
-      Fate: 3
-    },
+    Move: '6',
+    Fight: '6',
+    Shoot: '4',
+    Strength: '4',
+    Defense: '6',
+    Attacks: '3',
+    Wounds: '3',
+    Courage: '6',
+    Might: '6',
+    Will: '3',
+    Fate: '3',
     imageUrl: "http://i122.photobucket.com/albums/o262/Viruk_pl/Mitril/borek.jpg~original"
   },
   {
@@ -200,19 +192,17 @@ export const HEROES: Hero[] = [
           `
       }
     ],
-    attributes: {
-      Move: 6,
-      Fight: 4,
-      Shoot: 3,
-      Strength: 4,
-      Defense: 5,
-      Attacks: 2,
-      Wounds: 2,
-      Courage: 4,
-      Might: 3,
-      Will: 1,
-      Fate: 1 
-    },
+    Move: '6',
+    Fight: '4',
+    Shoot: '3',
+    Strength: '4',
+    Defense: '5',
+    Attacks: '2',
+    Wounds: '2',
+    Courage: '4',
+    Might: '3',
+    Will: '1',
+    Fate: '1',
     imageUrl: "http://www.karoath.com/graphics/gallery/lotr/madril-a1.jpg"
   },
   {
@@ -221,19 +211,17 @@ export const HEROES: Hero[] = [
     unique: "Damrod",
     points: 20,
     wargear: ['Armour', 'Bow'],
-    attributes: {
-      Move: 6,
-      Fight: 4,
-      Shoot: 3,
-      Strength: 4,
-      Defense: 5,
-      Attacks: 1,
-      Wounds: 1,
-      Courage: 4,
-      Might: 1,
-      Will: 1,
-      Fate: 1
-    },
+    Move: '6',
+    Fight: '4',
+    Shoot: '3',
+    Strength: '4',
+    Defense: '5',
+    Attacks: '1',
+    Wounds: '1',
+    Courage: '4',
+    Might: '1',
+    Will: '1',
+    Fate: '1',
     imageUrl: "https://www.games-workshop.com/resources/catalog/product/600x620/99061464031_FaramirandDamrodNEW01.jpg"
   },
   {
@@ -242,7 +230,7 @@ export const HEROES: Hero[] = [
     unique: "Denethor",
     points: 30,
     wargear: ['Armour'],
-        rules: [
+    rules: [
       {
         name: 'Broken Mind',
         explanation: `
@@ -254,19 +242,17 @@ export const HEROES: Hero[] = [
           `
       }
     ],
-    attributes: {
-      Move: 6,
-      Fight: 5,
-      Shoot: 4,
-      Strength: 4,
-      Defense: 5,
-      Attacks: 2,
-      Wounds: 2,
-      Courage: 5,
-      Might: 0,
-      Will: 3,
-      Fate: 0
-    },
+    Move: '6',
+    Fight: '5',
+    Shoot: '4',
+    Strength: '4',
+    Defense: '5',
+    Attacks: '2',
+    Wounds: '2',
+    Courage: '5',
+    Might: '0',
+    Will: '3',
+    Fate: '0',
     imageUrl: "http://hobbyworld.com.ua/published/publicdata/HOBBYWOR/attachments/SC/products_pictures/m1180613_99061464035_GoodDenethorMain_873x627_enl.jpg"
   },
   {
@@ -275,11 +261,11 @@ export const HEROES: Hero[] = [
     unique: "Beregond",
     points: 25,
     wargear: ['Heavy Armour', 'Longbow'],
-    options: [{ 
-    name: "Horse",
-    points: 6,
+    options: [{
+      name: "Horse",
+      points: 6,
     }],
-        rules: [
+    rules: [
       {
         name: 'Bodyguard',
         explanation: `
@@ -290,19 +276,17 @@ export const HEROES: Hero[] = [
         `
       }
     ],
-    attributes: {
-      Move: 6,
-      Fight: 4,
-      Shoot: 3,
-      Strength: 4,
-      Defense: 6,
-      Attacks: 1,
-      Wounds: 1,
-      Courage: 4,
-      Might: 1,
-      Will: 1,
-      Fate: 1
-    },
+    Move: '6',
+    Fight: '4',
+    Shoot: '3',
+    Strength: '4',
+    Defense: '6',
+    Attacks: '1',
+    Wounds: '1',
+    Courage: '4',
+    Might: '1',
+    Will: '1',
+    Fate: '1',
     imageUrl: "http://www.coolminiornot.com/pics/pics16/img522321bc2682a.jpg"
   },
   {
@@ -310,8 +294,8 @@ export const HEROES: Hero[] = [
     name: "Cirion, Lieutenant of Amon Barad",
     unique: "Cirion",
     points: 55,
-    wargear: ['Armour','Shield'],
-        rules: [
+    wargear: ['Armour', 'Shield'],
+    rules: [
       {
         name: 'Boldest of the Bold',
         explanation: `
@@ -322,19 +306,17 @@ export const HEROES: Hero[] = [
         `
       }
     ],
-    attributes: {
-      Move: 6,
-      Fight: 4,
-      Shoot: 4,
-      Strength: 4,
-      Defense: 6,
-      Attacks: 2,
-      Wounds: 2,
-      Courage: 4,
-      Might: 3,
-      Will: 1,
-      Fate: 1
-    },
+    Move: '6',
+    Fight: '4',
+    Shoot: '4',
+    Strength: '4',
+    Defense: '6',
+    Attacks: '2',
+    Wounds: '2',
+    Courage: '4',
+    Might: '3',
+    Will: '1',
+    Fate: '1',
     imageUrl: "http://farm5.static.flickr.com/4086/5071035018_24e5877191_m.jpg"
   },
   {
@@ -342,7 +324,7 @@ export const HEROES: Hero[] = [
     name: "Knight of the White Tower",
     points: 55,
     wargear: ['Heavy Armour', 'White Sword of Gondor'],
-        rules: [
+    rules: [
       {
         name: 'White Sword of Gondor',
         explanation: `
@@ -353,19 +335,17 @@ export const HEROES: Hero[] = [
         `
       }
     ],
-    attributes: {
-      Move: 6,
-      Fight: 5,
-      Shoot: 4,
-      Strength: 4,
-      Defense: 6,
-      Attacks: 2,
-      Wounds: 2,
-      Courage: 4,
-      Might: 1,
-      Will: 1,
-      Fate: 1 
-    },
+    Move: '6',
+    Fight: '5',
+    Shoot: '4',
+    Strength: '4',
+    Defense: '6',
+    Attacks: '2',
+    Wounds: '2',
+    Courage: '4',
+    Might: '1',
+    Will: '1',
+    Fate: '1',
     imageUrl: "http://4.bp.blogspot.com/-UOY87KR4wfc/UXibL6mrAaI/AAAAAAAAAZw/Gw0gQgcW6NM/s1600/20130424_212650_HDR.jpg"
   },
   {
@@ -390,20 +370,18 @@ export const HEROES: Hero[] = [
         name: "Shield",
         points: 5
       }
-    ],       
-    attributes: {
-      Move: 6,
-      Fight: 4,
-      Shoot: 4,
-      Strength: 4,
-      Defense: 6,
-      Attacks: 2,
-      Wounds: 2,
-      Courage: 4,
-      Might: 2,
-      Will: 1,
-      Fate: 1
-    },
+    ],
+    Move: '6',
+    Fight: '4',
+    Shoot: '4',
+    Strength: '4',
+    Defense: '6',
+    Attacks: '2',
+    Wounds: '2',
+    Courage: '4',
+    Might: '2',
+    Will: '1',
+    Fate: '1',
     imageUrl: "https://c2.staticflickr.com/4/3058/5715517454_16682a0628.jpg"
   },
   {
@@ -433,19 +411,17 @@ export const HEROES: Hero[] = [
         points: 5
       },
     ],
-    attributes: {
-      Move: 6,
-      Fight: 5,
-      Shoot: 4,
-      Strength: 4,
-      Defense: 5,
-      Attacks: 2,
-      Wounds: 2,
-      Courage: 5,
-      Might: 2,
-      Will: 2,
-      Fate: 1
-    },
+    Move: '6',
+    Fight: '5',
+    Shoot: '4',
+    Strength: '4',
+    Defense: '5',
+    Attacks: '2',
+    Wounds: '2',
+    Courage: '5',
+    Might: '2',
+    Will: '2',
+    Fate: '1',
     imageUrl: "https://images-na.ssl-images-amazon.com/images/I/216WWXPDR6L.jpg"
   },
 ];

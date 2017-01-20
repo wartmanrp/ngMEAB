@@ -1,10 +1,5 @@
 <div *ngIf="hero" class="row">
-    <div *ngIf="hero" class="col-md-9">
-        <div class="row">
-            <div class="btn-group-vertical col-sm-1 col-md-1">
-                <button (click)="goBack()" class="btn btn-info">Dashboard</button>
-                <button (click)="goToDetail()" class="btn btn-success btn-md">Full Details</button>
-            </div>
+        <button (click)="goBack()" class="btn btn-info">Back to List <i class="glyphicon glyphicon-chevron-left"></i></button>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
 
@@ -16,8 +11,7 @@
                             <label>Id: </label> {{ hero.id }}
                         </div>
                         <div>
-                            <label>Name: </label>
-                            <input [(ngModel)]="hero.name" placeholder="Name" />
+                            <label>Name: </label> {{ hero.name }}
                         </div>
                         <div>
                             <label>Points: </label> {{ hero.points }}
@@ -31,6 +25,46 @@
                     </div>
                 </div>
             </div>
+            <div class="col-sm-6 col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading"></div>
+                    <div class="panel-body">
+                        <table class="table table-striped table-hover table-bordered">
+                            <tr>
+                                    <th>Move</th>
+                                    <th>Fight</th>
+                                    <th>Strength</th>
+                                    <th>Defense</th>
+                                    <th>Attacks</th>
+                                    <th>Wounds</th>
+                                    <th>Courage</th>
+                                    <th></th>
+                                    <th>Might</th>
+                                    <th>Will</th>
+                                    <th>Fate</th>
+                            </tr>
+                            <tbody>
+                                <tr>
+                                    <td>{{ hero.move }}"</td>
+                                    <td>{{ hero.fight }}</td>
+                                    <td>{{ hero.strength }}</td>
+                                    <td>{{ hero.defense }}</td>
+                                    <td>{{ hero.attacks }}</td>
+                                    <td>{{ hero.wounds }}</td>
+                                    <td>{{ hero.courage }}</td>
+                                    <td></td>
+                                    <td>{{ hero.might }}</td>
+                                    <td>{{ hero.will }}</td>
+                                    <td>{{ hero.fate }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+        <!--<div *ngIf="hero" class="row">
+            <div class="col-md-12">
+
+            </div>
+        </div>-->
