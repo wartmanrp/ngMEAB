@@ -9,7 +9,7 @@ import { HeroService } from './heroes.service';
     moduleId: module.id,
     selector: 'my-hero-detail',
     templateUrl: 'hero-detail.component.html',
-    styleUrls: ['hero-detail.styles.css']
+    styleUrls: ['hero-detail.component.css']
 
 })
 

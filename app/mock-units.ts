@@ -423,5 +423,58 @@ export const HEROES: Hero[] = [
     Will: '2',
     Fate: '1',
     imageUrl: "https://images-na.ssl-images-amazon.com/images/I/216WWXPDR6L.jpg"
-  },
+  }
+  // ,
+  // {
+  //   id: 13,
+  //   name: "Test, Captain of the Test Tower",
+  //   unique: "Testy",
+  //   points: 1000,
+  //   wargear: ['Heavy Armour', 'The Horn of Testdor'],
+  //   options: [
+  //     {
+  //       name: "The Banner of Mintest Testith",
+  //       points: 50,
+  //     },
+  //     {
+  //       name: "testHorse",
+  //       points: 10
+  //     },
+  //     {
+  //       name: "mockLance",
+  //       points: 5
+  //     },
+  //     {
+  //       name: "pseudoShield",
+  //       points: 5
+  //     },
+  //   ],
+  //   rules: [
+  //     {
+  //       name: 'Testing rules',
+  //       explanation: `
+  //         Some testers can test stuff only after having tested many things as well as
+  //         strike blows.
+  //         `
+  //     },
+  //     {
+  //       name: 'Banner',
+  //       explanation: `
+  //         Come on we all know what banners do, gimme a break!
+  //       `
+  //     }
+  //   ],
+  //   Move: '20',
+  //   Fight: '9',
+  //   Shoot: '6',
+  //   Strength: '7',
+  //   Defense: '3',
+  //   Attacks: '15',
+  //   Wounds: '1',
+  //   Courage: '1',
+  //   Might: '10',
+  //   Will: '3',
+  //   Fate: '3',
+  //   imageUrl: "http://i122.photobucket.com/albums/o262/Viruk_pl/Mitril/borek.jpg~original"
+  // }
 ];

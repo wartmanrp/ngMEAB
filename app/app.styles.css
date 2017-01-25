@@ -1,3 +1,5 @@
+
+
 .selected {
     background-color: #CFD8DC !important;
     color: white;
@@ -47,3 +49,11 @@
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
   }
+
+  .unit-thumb {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 3px;
+    padding: 3px;
+}
